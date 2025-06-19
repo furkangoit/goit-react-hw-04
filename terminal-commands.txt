@@ -1,0 +1,18 @@
+# 1. Komut İstemcisi (CMD, PowerShell veya VSCode Terminal) aç.
+# 2. Proje klasörüne git:
+cd C:\Users\aysun\OneDrive\Masaüstü\goit-react-hw-04
+
+# 3. node_modules ve package-lock.json'u sil:
+rmdir /s /q node_modules
+del package-lock.json
+
+# 4. Tüm bağımlılıkları tekrar yükle:
+npm install
+
+# 5. Projeyi başlat (isteğe bağlı):
+npm run dev
+
+# 6. Değişiklikleri GitHub'a göndermek için:
+git add .
+git commit -m "Temiz kurulum ve lock dosyası güncellendi"
+git push
