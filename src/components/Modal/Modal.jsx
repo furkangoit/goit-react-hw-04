@@ -37,4 +37,5 @@ function Modal({ image, onClose }) {
   );
 }
 
+
 export default Modal;
