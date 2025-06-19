@@ -1,0 +1,16 @@
+# Ana branch'e göndermek için terminalde şu adımları uygula:
+
+# 1. Ana branch'e geç:
+git checkout main
+
+# 2. Değişikliklerini ana branch'e birleştir (örneğin feature branch'ten):
+git merge <senin-branch-adin>
+
+# 3. Ana branch'i GitHub'a gönder:
+git push origin main
+
+# Eğer doğrudan ana branch'te çalışıyorsan:
+# Commit yaptıktan sonra sadece:
+git push origin main
+
+# Not: VSCode veya GitHub Desktop kullanıyorsan, ana branch'e geçip "Push" butonuna tıklayabilirsin.
